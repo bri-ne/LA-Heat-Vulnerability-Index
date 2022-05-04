@@ -1,0 +1,38 @@
+/* === Legend Code === */
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 0;
+  display: inline-block;
+  border: #1F1F1F solid 0.1em;
+  opacity: 0.7;
+  margin-bottom: -3px;
+}
+
+.info-legend {
+  padding: 0.5rem;
+  border: 0.2rem solid rgba(225, 223, 223, 0.7);
+  background-color: whitesmoke;
+  display: flex; 
+  flex-direction: column;
+}
+.legendtext {
+  font-size: 1em;
+  color: #1F1F1F;
+  padding-left: 0.5em;
+}
+
+.legendTitle{
+  font-size: 1.2em;
+  color: #1F1F1F;
+  margin-bottom: 10px;
+  padding: 0.25rem;
+  margin-top: 0;
+  text-transform: capitalize;
+  text-align: center;
+}
+.legendBody{
+  display:flex;
+  flex-direction: column;
+}
